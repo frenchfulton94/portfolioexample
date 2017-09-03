@@ -1,0 +1,152 @@
+@font-face {
+    font-family: bebastam;
+    src: url('../Fonts/BebasTam.ttf');
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('../Fonts/BebasNeueRegular.ttf');
+}
+
+@font-face {
+    font-family: bebasbold;
+    src: url('../Fonts/BebasNeueBold.ttf');
+}
+
+@media screen and (min-width: 768px) {
+    .container,
+    header {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    main {
+        overflow: hidden;
+    }
+}
+
+* {
+    overflow-x: hidden;
+}
+
+p,
+figcaption,
+ul {
+    color: #BDC3C7;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+h1,
+.section_header,
+#logo,
+.image_title {
+    font-family: bebastam, sans-serif;
+    letter-spacing: 15px;
+}
+
+#projects_section,
+.project_header {
+    color: #FF6AD5;
+}
+
+h3 {
+    color: #7E7E7E;
+}
+
+#suffix,
+ul {
+    font-family: bebas, sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#FAE8F7, #B3F4FD);
+}
+
+#logo {
+    position: relative;
+    font-size: 144px;
+    letter-spacing: 30px;
+    z-index: 2;
+    left: -25px;
+    overflow-x: hidden;
+}
+
+main {
+    margin: 50px auto !important;
+   
+    
+}
+
+.main_name {
+    color: white;
+}
+
+#middle_name,
+h1 {
+    color: #C774E8;
+}
+
+#suffix {
+    color: #94D0FF;
+    text-decoration: underline;
+}
+
+#portrait {
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    top: -25px;
+    padding: 0;
+    margin: 0px;
+}
+
+#about_me_description {
+    margin: 0;
+    padding: 0;
+}
+
+.section_header {
+    font-size: 144px;
+    position: relative;
+    left: -25px;
+    overflow-x: hidden;
+}
+
+.project_header {
+    font-family: bebasbold;
+    letter-spacing: 10x;
+}
+
+.description_block {
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+#photography_section {
+    color: #8795E8;
+}
+
+.image_title {
+    color: #94D0FF;
+    margin: 0;
+    position: relative;
+    top: -40px;
+    font-size: 64px;
+}
+
+figcaption {
+    position: relative;
+    top: -40px;
+}
+ ::-webkit-scrollbar {
+    display: none;
+}
+
